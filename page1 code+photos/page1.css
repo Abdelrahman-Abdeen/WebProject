@@ -1,11 +1,57 @@
+body {
+    overflow-x: hidden;
+}
+
 .all{
     height: 1500px;
-    background-color: lightpink;
+    background-color: plum;
     width: 50%;
     margin: 0 auto;
     padding: 10px;
 
 }
+
+
+.header {
+    background-color: lightpink;
+    margin-top : -25px;
+    margin-right : -10px;
+    margin-left : -10px;
+    height : 158px;
+    position : sticky;
+    top : 0px;
+    z-index: 1;
+    margin-bottom: 80px;
+    
+}
+.header-logo {
+    float : left;
+    width : 158px;
+    height : 158px;
+    padding-right : 10px;
+}
+.navmenu {
+    position: relative;
+    left : 30%;
+}
+.navmenu li{
+    display: inline-block;
+    margin-left : 5px;
+    margin-right: 5px;
+    margin-top : 110px;
+    padding : 10px;
+    border : 3px;
+    border-style: solid;
+    border-color: beige;
+    background-color: beige;
+    border-radius: 5px;
+}
+.navmenu li:hover {
+    background-color: white;
+    border-color:white;
+}
+
+
 .Main{
      margin: 15px auto;
  }
@@ -30,4 +76,14 @@
 .Prod:hover{
      transform: scale(1.15);
      }
-    
+
+.filter{
+    width:300px;
+    height: 500px;
+    border:2px solid lightpink;
+    position:fixed;
+    top:280px;
+    left:50px;
+    float: left;
+    padding-left: 30px;
+}
