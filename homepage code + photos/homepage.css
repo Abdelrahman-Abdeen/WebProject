@@ -1,0 +1,118 @@
+body {
+    overflow-x: hidden;
+    background-image: linear-gradient(lightblue,lightpink);
+}
+.header {
+    margin-top : -25px;
+    margin-right : -10px;
+    margin-left : -10px;
+    height : 185px;
+    position : sticky;
+    top : 0px;
+    z-index: 1;
+}
+.header-logo {
+    float : left;
+    width : 10%;
+    height : 100%;
+}
+.navmenu {
+    position : absolute;
+    left : 80%;
+}
+.navmenu li{
+    display: inline-block;
+    margin-left : 5px;
+    margin-right: 5px;
+    margin-top : 110px;
+    padding : 10px;
+    
+}
+.navmenu li:hover {
+    transition: 0.5s;
+    font-size: 20px;
+    
+    background-image: linear-gradient(lightblue,lightpink);
+  
+}
+.registration img {
+    width : 15%;
+    height : 15%;
+    float : right;
+    margin-right : 25%;
+}
+.registration ul li {
+    display: inline-block;
+    padding : 10px;
+    margin-left : 5px;
+    margin-right : 5px;
+    border : 3px solid;
+    border-color: beige;
+    background-color: beige;
+    border-radius: 5px;
+}
+.registration ul {
+    position : absolute;
+    left : 80%;
+    top : 10%;
+}
+.exploretext {
+    text-align: center;
+    text-decoration: bold;
+    margin-top : 40px;
+}
+.exploretext p {
+    font-size: large;
+}
+.types {
+    width : 60%;
+    margin-left : auto;
+    margin-right : auto;
+    margin-bottom: 25px;
+}
+.prod p {
+    font-family: Impact;
+}
+.prod {
+    width : 200px;
+    height : 200px;
+    text-align: center;
+    display : inline-block;
+    margin-left : 5px;
+    margin-right : 5px;
+    background-color: lightblue;
+}
+.prod img {
+    width : 150px;
+    height : 150px;
+}
+.services img {
+    margin-right: 5px;
+    width : 30px;
+    height : 30px;
+}
+.services p{
+    font-size: 20px;
+    font-family: Impact;
+}
+.services li {
+    display: inline-block;
+    margin-left : 20px;
+    margin-right : 20px;
+}
+.services ul {
+    position : relative;
+    left :25%;
+}
+.aboutus p {
+    font-family: Impact;
+    letter-spacing: 0.5px;
+    font-size : 20px;
+}
+.aboutus h1 {
+    text-align: center;
+}
+.sm img {
+    width : 30px;
+    height : 30px;
+}
