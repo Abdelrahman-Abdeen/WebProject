@@ -4,7 +4,7 @@ body {
 
 .all{
     height: 100%;
-    background-color: plum;
+    background-color: skyblue;
     width: 52%;
     margin: 0 auto;
     padding: 1%;
@@ -78,12 +78,33 @@ body {
      }
 
 .filter{
-    width:300px;
-    height: 500px;
+    width:15%;
+    height: 60%;
     border:2px solid lightpink;
     position:fixed;
     top:280px;
     left:50px;
     float: left;
-    padding-left: 30px;
+    padding-left: 5px;
+}
+.n1{
+    text-align: center;
+    font-size: 70px;
+    margin: 10px;
+    padding:20px;
+    background-color: lightgreen;
+}
+.fil{
+    text-align: center;
+}
+.f1{
+    width: 40%;
+    display:block;
+    padding: 7px;
+    margin: 15px;
+    margin-left: 0;
+    padding-left: 0;
+    border:1px solid black;
+    border-radius: 10px;
+    text-align: center;
 }
