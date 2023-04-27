@@ -1,0 +1,33 @@
+.all{
+    height: 1500px;
+    background-color: lightpink;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+.Main{
+     margin: 15px auto;
+ }
+        
+.Prod{
+    width: 280px;
+    height: 320px;
+     margin: 15px;
+    background-color: whitesmoke;
+    display: inline-block;
+     text-align: center;
+    transition: 1.5s ease;
+           
+}
+.Prod img{
+    height: 175px;
+    width: 175px;
+    display: block;
+    margin: auto;
+        
+}
+.Prod:hover{
+     transform: scale(1.15);
+     }
+    
