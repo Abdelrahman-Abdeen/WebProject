@@ -1,7 +1,5 @@
 html{
-    background-image:linear-gradient(to left,lightgrey,#89cff0,lightgrey);
-    background-size: cover;
-  background-blend-mode: difference;
+    background-color:aliceblue;
 }
 select{
     width: 80%;
@@ -25,4 +23,9 @@ button{
 .sm img{
     width: 30px;
     height: 30px;
+}
+.logo{
+    width: 200px;
+    position: relative;
+    left: 43%;
 }
