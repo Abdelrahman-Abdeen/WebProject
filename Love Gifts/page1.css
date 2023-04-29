@@ -105,13 +105,15 @@ body {
 
 .filter{
     width:15%;
-    height: 60%;
-    border:2px solid lightpink;
     position:fixed;
-    top:280px;
+    top:170px;
     left:50px;
     float: left;
     padding-left: 5px;
+    border:3px solid black;
+    border-radius: 40px;
+    float : left;
+    height : 70%;
 }
 .n1{
     text-align: center;
@@ -134,13 +136,6 @@ body {
     border-radius: 10px;
     text-align: left;
 }
-.filter {
-    border-color: black;
-    color : black;
-    border-radius: 50px;
-    float : left;
-    height : 50%;
-}
 .filter ul {
     padding-left : 5px;
 }
@@ -153,9 +148,8 @@ body {
 }
 .filter a{
     text-decoration: none;
-    width : 10px;
+    width : 1px;
 }
 hr{
     border-color : black;
 }
-
