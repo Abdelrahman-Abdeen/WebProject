@@ -153,3 +153,10 @@ body {
 hr{
     border-color : black;
 }
+div ul li a{
+    text-decoration: none;
+}
+div ul li a:visited{
+    text-decoration: none;
+    color: black;
+}
