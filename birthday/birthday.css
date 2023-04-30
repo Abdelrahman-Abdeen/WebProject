@@ -1,0 +1,181 @@
+body {
+    overflow-x: hidden;
+    background-color : rgb(211, 232, 250);
+}
+
+.all{
+    height: 100%;
+    
+    width: 52%;
+    margin: 0 auto;
+    padding: 1%;
+
+}
+.header {
+    margin-top : -25px;
+    margin-right : -10px;
+    margin-left : -10px;
+    height : 110px;
+    position : sticky;
+    top : 0px;
+    z-index: 1;
+    background-image: linear-gradient(to top,rgb(211, 232, 250), beige);
+}
+.header-logo {
+    text-align: center;
+}
+.navmenu {
+    width : 30%;
+    float : left;
+}
+.navmenu li{
+    display: inline-block;
+    margin-left : 5px;
+    margin-right: 5px;
+    padding : 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    font-family: Impact;
+    
+}
+.navmenu li:hover {
+    transition: 0.5s;
+    font-size: 20px;
+}
+.registration img {
+    width : 15%;
+    height : 15%;
+    float : right;
+    margin-right : 15%;
+}
+.registration li {
+    display: inline-block;
+    padding : 10px;
+    margin-left : 5px;
+    margin-right : 5px;
+    border : 3px solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-family: Impact;
+}
+.registration {
+    width : 15%;
+    float : right;
+    padding-left : 0px;
+}
+
+.Main{
+     margin: 2% auto;
+}
+        
+.Prod{
+    width: 26%;
+    height: 32%;
+    margin: 3.3%;
+    background-color :white;
+    display: inline-block;
+     text-align: center;
+    transition: 1.5s ease;
+    border-radius: 35px;
+           
+}
+.Prod img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+        
+}
+.Prod p {
+    font-family: sans-serif;
+}
+.Prod:hover{
+     transform: scale(1.15);
+     }
+
+.filter{
+    width:15%;
+    position:fixed;
+    top:170px;
+    left:50px;
+    float: left;
+    padding-left: 5px;
+    border:3px solid black;
+    border-radius: 40px;
+    float : left;
+    height : 50%;
+}
+.n1{
+    text-align: center;
+    font-size: 70px;
+    margin: 10px;
+    padding:20px;
+    font-family : Bradley Hand ITC;
+}
+.fil{
+    text-align: center;
+}
+.f1{
+    width:100%;
+    display:block;
+    padding: 7px;
+    margin: 15px;
+    margin-left: 0;
+    padding-left: 0;
+    border:1px solid black;
+    border-radius: 10px;
+    text-align: left;
+}
+.filter ul {
+    padding-left : 5px;
+}
+.filter li {
+    border-width: 0px;
+    font-size : 30px;
+    color : black;
+    font-family : Bradley Hand ITC;
+    font-weight:bold;
+}
+.filter a{
+    text-decoration: none;
+    width : 1px;
+}
+hr{
+    border-color : black;
+}
+div ul li a{
+    text-decoration: none;
+}
+div ul li a:visited{
+    text-decoration: none;
+    color: black;
+}
+.contactus {
+    width : 50%;
+    float : left;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to top,rgb(130, 192, 250),rgba(211, 211, 211, 0));
+}
+.sm {
+    text-align: center;
+    font-family: sans-serif;
+    width : 50%;
+    float : right;
+    background-image: linear-gradient(to top,rgb(130, 192, 250),rgba(211, 211, 211, 0));
+    height : 215px;
+}
+.sm img {
+    width : 50px;
+    height : 50px;
+}
+.navmenu a {
+    color : black;
+}
+hr {
+    border-color: lightblue;
+}
